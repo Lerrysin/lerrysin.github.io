@@ -1,0 +1,49 @@
+# Add new entries at the top. Dates describe publication or the linked announcement.
+
+- date: "2026-10-14"
+  label: "Oct. 2026"
+  text: "Our **woven fluidic tactile sensor** for 3D force sensing and super-resolution contact localization was published online in *IEEE Sensors Journal*."
+  url: "https://doi.org/10.1109/JSEN.2026.3740735"
+  link_label: "Paper"
+
+- date: "2026-08-03"
+  label: "Aug. 2026"
+  text: "**PreciseTouch** appeared in *International Journal of Human-Computer Interaction*, Volume 42, Issue 15."
+  url: "https://doi.org/10.1080/10447318.2025.2596335"
+  link_label: "Paper"
+
+- date: "2026-07-03"
+  label: "Jul. 2026"
+  text: "**SoftHeart**, our work on sharing heartbeats through soft haptic feedback in social VR, is now online in *International Journal of Human-Computer Interaction*."
+  url: "https://doi.org/10.1080/10447318.2026.2664709"
+  link_label: "Paper"
+
+- date: "2026-04-02"
+  label: "Apr. 2026"
+  text: "Our collaborative work **Enhancing Creativity in Virtuality** was published in the proceedings of **IEEE Conference on Virtual Reality and 3D User Interfaces 2026**."
+  url: "https://doi.org/10.1109/VR67842.2026.00077"
+  link_label: "Paper"
+
+- date: "2025-04-30"
+  label: "Apr. 2025"
+  text: "Our **survey of electrical stimulation haptic feedback in HCI** is available on arXiv."
+  url: "https://arxiv.org/abs/2504.21477"
+  link_label: "Preprint"
+
+- date: "2025-03-26"
+  label: "Mar. 2025"
+  text: "Our work on **kirigami robotic e-skin for safe human-robot interaction** was published in *Advanced Intelligent Systems*."
+  url: "https://doi.org/10.1002/aisy.202400903"
+  link_label: "Paper"
+
+- date: "2025-02-04"
+  label: "Feb. 2025"
+  text: "HKUST featured our **CardioQuest VR** team's 🥈 **Silver Award** in the Trusted AI & Data Science category at **Hong Kong Techathon+ 2025**."
+  url: "https://ais.hkust.edu.hk/whats-happening/news/ais-students-excel-hong-kong-techathon-2025"
+  link_label: "HKUST News"
+
+- date: "2024-10-07"
+  label: "Oct. 2024"
+  text: "**The Jade Gateway to Exergaming** received an 🏅 **Honorable Mention at the ACM Annual Symposium on Computer-Human Interaction in Play 2024**."
+  url: "https://pure.au.dk/portal/en/prizes/acm-chi-play-2024-honorable-mention"
+  link_label: "Award"

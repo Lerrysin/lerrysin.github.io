@@ -1,0 +1,11 @@
+{% assign publication = include.publication -%}
+<div class="list__item">
+<article class="archive__item">
+<h3 class="archive__item-title"><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+<p>{{ publication.authors | replace: 'Simin Yang', '<strong>Simin Yang</strong>' }}<br>
+<em>{{ publication.venue }}</em>, {{ publication.date | date: '%Y' }}{% if publication.award %} &middot; <strong><span role="img" aria-label="Award">🏅</span> {{ publication.award }}</strong>{% endif %}<br>
+<a href="{{ publication.link }}">{% if publication.category == 'preprints' %}Preprint{% else %}Publisher{% endif %}</a>{% if publication.paperurl %} &middot; <a href="{{ publication.paperurl }}">PDF</a>{% endif %} &middot; <a href="{{ publication.bibtexurl | relative_url }}">BibTeX</a>
+</p>
+{{ publication.excerpt | markdownify }}
+</article>
+</div>
