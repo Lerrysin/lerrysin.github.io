@@ -47,7 +47,7 @@ I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science a
 - 🏅 **2024 — Merit Prize**, 10th Hong Kong University Student Innovation and Entrepreneurship Competition, **CardioQuest VR**. [Official results](https://www.hkchallengeplus.com/wp-content/uploads/2024/06/%E5%BE%97%E5%A5%AC%E5%90%8D%E5%96%AE_%E8%8B%B1_new-1.pdf)
 - 🏅 **2024 — Semi-finalist**, Bangkok Business Challenge.
 - 🏅 **2018 — National Honorary Title**, Xiaoping Science and Technology Innovation Team.
-- 🏆 **2017 & 2018 — National Champion**, RoboMaster University Robotics Competition.
+- 🏆 **2017 & 2018 — National Champion**, RoboMaster Robotics Competition.
 
 ## Patents
 
