@@ -1,0 +1,19 @@
+{% assign is_zh = false %}
+{% assign language = site.data.languages.en %}
+{% if page.lang == 'zh-CN' %}
+  {% assign is_zh = true %}
+  {% assign language = site.data.languages.zh %}
+{% endif %}
+{% assign english_path = page.url %}
+{% assign chinese_path = page.translation_url %}
+{% if is_zh %}
+  {% assign english_path = page.translation_url %}
+  {% assign chinese_path = page.url %}
+{% elsif page.collection == 'publications' %}
+  {% assign chinese_path = page.url | prepend: '/zh' %}
+{% endif %}
+{% if is_zh %}
+  {% assign language_target = english_path | default: '/' %}
+{% else %}
+  {% assign language_target = chinese_path | default: '/zh/' %}
+{% endif %}

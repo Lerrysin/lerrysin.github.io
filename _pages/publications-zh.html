@@ -1,0 +1,26 @@
+---
+layout: archive
+title: 论文发表
+permalink: /zh/publications/
+lang: zh-CN
+translation_url: /publications/
+description: 杨思敏的研究论文，聚焦触觉交互、触觉设备、触觉传感与触觉反馈。
+author_profile: true
+---
+
+{% include language-context.html %}
+<p>我的研究主要围绕<strong>触觉交互与触觉设备</strong>，涵盖触觉传感、触觉反馈与实体交互界面。
+  更多成果请见 <a href="{{ site.author.googlescholar }}">Google Scholar</a> 和
+  <a href="{{ site.author.orcid }}">ORCID</a>。
+</p>
+
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% for category in site.publication_category %}
+  {% assign category_papers = publications | where: 'category', category[0] %}
+  {% if category_papers.size > 0 %}
+    <h2>{{ language.categories[category[0]] }}</h2>
+    {% for publication in category_papers %}
+      {% include profile-publication.html publication=publication %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

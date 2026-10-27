@@ -1,11 +1,27 @@
+{% include language-context.html %}
 {% assign publication = include.publication -%}
+{% assign translation = site.data.publications_zh[publication.url] %}
+{% assign publication_path = publication.url %}
+{% if is_zh and translation %}{% assign publication_path = publication.url | prepend: '/zh' %}{% endif %}
 <div class="list__item">
 <article class="archive__item">
-<h3 class="archive__item-title"><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+{% unless include.detail %}<h3 class="archive__item-title"><a href="{{ publication_path | relative_url }}">{{ publication.title }}</a></h3>{% endunless %}
+{% if is_zh and translation %}<p class="publication__translation">{{ translation.title }}</p>{% endif %}
 <p>{{ publication.authors | replace: 'Simin Yang', '<strong>Simin Yang</strong>' }}<br>
-<em>{{ publication.venue }}</em>, {{ publication.date | date: '%Y' }}{% if publication.award %} &middot; <strong><span role="img" aria-label="Award">🏅</span> {{ publication.award }}</strong>{% endif %}<br>
-<a href="{{ publication.link }}">{% if publication.category == 'preprints' %}Preprint{% else %}Publisher{% endif %}</a>{% if publication.paperurl %} &middot; <a href="{{ publication.paperurl }}">PDF</a>{% endif %} &middot; <a href="{{ publication.bibtexurl | relative_url }}">BibTeX</a>
+<em>{{ publication.venue }}</em>, {{ publication.date | date: '%Y' }}{% if publication.award %} &middot; <strong><span role="img" aria-label="{{ language.award }}">🏅</span> {{ publication.award }}{% if is_zh %}（荣誉提名）{% endif %}</strong>{% endif %}<br>
+<a href="{{ publication.link }}">{% if publication.category == 'preprints' %}{{ language.preprint }}{% else %}{{ language.publisher }}{% endif %}</a>{% if publication.paperurl %} &middot; <a href="{{ publication.paperurl }}">PDF</a>{% endif %} &middot; <a href="{{ publication.bibtexurl | relative_url }}">BibTeX</a>
 </p>
+{% if include.detail %}
+<h2>论文概述</h2>
+{{ translation.body | markdownify }}
+<p><a href="{{ publication.source_url }}">论文记录</a></p>
+<h2>引用信息</h2>
+<p>{{ publication.citation }}</p>
+<p><a href="{{ '/zh/publications/' | relative_url }}">返回全部论文</a></p>
+{% elsif is_zh and translation %}
+{{ translation.excerpt | markdownify }}
+{% else %}
 {{ publication.excerpt | markdownify }}
+{% endif %}
 </article>
 </div>

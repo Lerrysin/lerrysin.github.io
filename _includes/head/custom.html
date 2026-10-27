@@ -19,4 +19,19 @@
   body { padding-bottom: 2em; }
 </style>
 
+{% include language-context.html %}
+{% if english_path and chinese_path %}
+<link rel="alternate" hreflang="en" href="{{ english_path | absolute_url }}" />
+<link rel="alternate" hreflang="zh-CN" href="{{ chinese_path | absolute_url }}" />
+<link rel="alternate" hreflang="x-default" href="{{ english_path | absolute_url }}" />
+{% endif %}
+<script defer src="{{ '/assets/js/language-switch.js' | relative_url }}"></script>
+<style>
+  .greedy-nav .masthead__controls > div { display: flex; align-items: center; }
+  .greedy-nav .language-switch { font-size: 0.8em; white-space: nowrap; border: 1px solid var(--global-border-color); border-radius: 5px; padding: 0.2rem 0.5rem; }
+  .greedy-nav #theme-toggle { width: 25px; display: flex; justify-content: center; cursor: pointer; }
+  .publication__translation { color: var(--global-text-color-light); font-size: 0.9em; margin: 0 0 0.5em; }
+  html[lang="zh-CN"] body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  html[lang="zh-CN"] .author__urls-wrapper button { white-space: nowrap; min-width: 4.5em; }
+</style>
 <!-- end custom head snippets -->

@@ -1,0 +1,37 @@
+en:
+  home: /
+  name: Simin YANG
+  follow: Follow
+  email: Email
+  publisher: Publisher
+  preprint: Preprint
+  award: Award
+  switch_label: 中文
+  switch_title: 切换为中文
+  switch_lang: zh-CN
+  theme: Toggle color theme
+  categories:
+    books: Books
+    manuscripts: Journal Articles
+    conferences: Conference Papers
+    preprints: Preprints
+zh:
+  home: /zh/
+  name: 杨思敏
+  bio: 香港科技大学博士研究生。研究方向为触觉交互、触觉设备与多模态界面。
+  location: 香港
+  employer: 香港科技大学
+  follow: 关注
+  email: 电子邮箱
+  publisher: 出版页面
+  preprint: 预印本
+  award: 获奖
+  switch_label: English
+  switch_title: Switch to English
+  switch_lang: en
+  theme: 切换明暗主题
+  categories:
+    books: 书籍
+    manuscripts: 期刊论文
+    conferences: 会议论文
+    preprints: 预印本
