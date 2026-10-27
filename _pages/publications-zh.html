@@ -16,9 +16,10 @@ author_profile: true
 
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% for category in site.publication_category %}
+  {% assign category_key = category[0] %}
   {% assign category_papers = publications | where: 'category', category[0] %}
   {% if category_papers.size > 0 %}
-    <h2>{{ language.categories[category[0]] }}</h2>
+    <h2>{{ language.categories[category_key] }}</h2>
     {% for publication in category_papers %}
       {% include profile-publication.html publication=publication %}
     {% endfor %}
