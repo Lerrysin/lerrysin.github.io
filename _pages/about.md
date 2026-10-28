@@ -11,7 +11,7 @@ redirect_from:
 
 ## Profile
 
-I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/) specializing in **haptic interaction and haptic devices**. I am supervised by [Prof. Pan Hui](https://panhui.people.ust.hk/index.html), an **International Fellow of the Royal Academy of Engineering (FREng)** and a **Member of Academia Europaea (MAE)**. As a **former Product Manager at DJI**, I bring together **frontier academic research, engineering implementation, and product development**.
+I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/) specializing in **haptic interaction and haptic devices**. I am supervised by [Prof. Pan Hui](https://panhui.people.ust.hk/index.html), an **International Fellow of the Royal Academy of Engineering (FREng)**, an **ACM Distinguished Scientist**, an **IEEE Fellow**, and a **Member of Academia Europaea (MAE)**. As a **former Product Manager at DJI**, I bring together **frontier academic research, engineering implementation, and product development**.
 
 ## Education
 

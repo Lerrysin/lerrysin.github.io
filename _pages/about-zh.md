@@ -12,7 +12,7 @@ author_profile: true
 
 <h2 id="profile">个人介绍</h2>
 
-我是**杨思敏（Simin Yang）**，现为[香港科技大学（HKUST）](https://hkust.edu.hk/)博士研究生，主要研究**触觉交互与触觉设备**。我师从 [Pan Hui 教授](https://panhui.people.ust.hk/index.html)，他是**英国皇家工程院国际院士（FREng）**与**欧洲科学院（Academia Europaea）院士（MAE）**。我曾任**大疆产品经理**，致力于将**学术前沿研究、工程落地与产品开发**结合起来。
+我是**杨思敏（Simin Yang）**，现为[香港科技大学（HKUST）](https://hkust.edu.hk/)博士研究生，主要研究**触觉交互与触觉设备**。我师从 [Pan Hui 教授](https://panhui.people.ust.hk/index.html)，他是**英国皇家工程院国际院士（FREng）**、**ACM 杰出科学家**、**IEEE 会士（IEEE Fellow）**与**欧洲科学院（Academia Europaea）院士（MAE）**。我曾任**大疆产品经理**，致力于将**学术前沿研究、工程落地与产品开发**结合起来。
 
 <h2 id="education">教育背景</h2>
 
