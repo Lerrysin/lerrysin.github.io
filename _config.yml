@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 show_language_switch     : false
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Simin YANG"
