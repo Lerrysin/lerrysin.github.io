@@ -39,6 +39,12 @@ I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science a
 {% include profile-publication.html publication=publication %}
 {% endfor %}
 
+## Academic Service
+
+- **Reviewer**, ACM Conference on Human Factors in Computing Systems (**CHI**).
+- **Reviewer**, IEEE Conference on Virtual Reality and 3D User Interfaces (**IEEE VR**).
+- **Reviewer**, ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**).
+
 ## Honors and Awards
 
 - 🥇 **2025 — Gold Award**, China International College Students' Innovation Competition, for an **ultrathin visuotactile sensor based on a biomimetic compound-eye structure**.

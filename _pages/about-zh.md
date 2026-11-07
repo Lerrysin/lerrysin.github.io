@@ -39,6 +39,12 @@ author_profile: true
 {% include profile-publication.html publication=publication %}
 {% endfor %}
 
+<h2 id="academic-service">学术服务</h2>
+
+- **审稿人**，ACM Conference on Human Factors in Computing Systems（**CHI**）。
+- **审稿人**，IEEE Conference on Virtual Reality and 3D User Interfaces（**IEEE VR**）。
+- **审稿人**，ACM Conference on Computer-Supported Cooperative Work and Social Computing（**CSCW**）。
+
 <h2 id="honors-and-awards">荣誉与奖项</h2>
 
 - 🥇 **2025 年 — 金奖**，中国国际大学生创新大赛，项目：**基于仿生复眼结构的超薄视触觉传感器**。
