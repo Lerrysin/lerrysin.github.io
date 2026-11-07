@@ -20,7 +20,7 @@
 </style>
 
 {% include language-context.html %}
-{% if english_path and chinese_path %}
+{% if site.show_language_switch != false and english_path and chinese_path %}
 <link rel="alternate" hreflang="en" href="{{ english_path | absolute_url }}" />
 <link rel="alternate" hreflang="zh-CN" href="{{ chinese_path | absolute_url }}" />
 <link rel="alternate" hreflang="x-default" href="{{ english_path | absolute_url }}" />

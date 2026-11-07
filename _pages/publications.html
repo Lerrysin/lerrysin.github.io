@@ -1,22 +1,24 @@
 ---
 layout: archive
-title: "Publications"
+title: 论文发表
 permalink: /publications/
+lang: zh-CN
+description: 杨思敏的研究论文，聚焦触觉交互、触觉设备、触觉传感与触觉反馈。
 author_profile: true
-lang: en
-translation_url: /zh/publications/
 ---
 
-<p>My research focuses on <strong>haptic interaction and haptic devices</strong>, including tactile sensing, haptic feedback, and physical interfaces.
-  See also <a href="{{ site.author.googlescholar }}">Google Scholar</a> and
-  <a href="{{ site.author.orcid }}">ORCID</a>.
+{% include language-context.html %}
+<p>我的研究主要围绕<strong>触觉交互与触觉设备</strong>，涵盖触觉传感、触觉反馈与实体交互界面。
+  更多成果请见 <a href="{{ site.author.googlescholar }}">Google Scholar</a> 和
+  <a href="{{ site.author.orcid }}">ORCID</a>。
 </p>
 
 {% assign publications = site.publications | sort: 'date' | reverse %}
 {% for category in site.publication_category %}
+  {% assign category_key = category[0] %}
   {% assign category_papers = publications | where: 'category', category[0] %}
   {% if category_papers.size > 0 %}
-    <h2>{{ category[1].title }}</h2>
+    <h2>{{ language.categories[category_key] }}</h2>
     {% for publication in category_papers %}
       {% include profile-publication.html publication=publication %}
     {% endfor %}

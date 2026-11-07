@@ -38,8 +38,8 @@ main:
 
 main_zh:
   - title: "关于我"
-    url: /zh/
+    url: /
   - title: "最新动态"
-    url: /zh/#news
+    url: /#news
   - title: "论文发表"
-    url: /zh/publications/
+    url: /publications/
