@@ -41,6 +41,8 @@ author_profile: true
 
 <h2 id="academic-service">学术服务</h2>
 
+- **2026 年 4 月：** 担任 **第 17 届 ACM 多媒体系统会议（ACM MMSys 2026）**的 **Local Chair**，会议于 **2026 年 4 月 4–8 日在香港**举行。
+
 - **审稿人**，ACM Conference on Human Factors in Computing Systems（**CHI**）。
 - **审稿人**，IEEE Conference on Virtual Reality and 3D User Interfaces（**IEEE VR**）。
 - **审稿人**，ACM Conference on Computer-Supported Cooperative Work and Social Computing（**CSCW**）。

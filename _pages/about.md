@@ -41,6 +41,8 @@ I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science a
 
 ## Academic Service
 
+- **Apr. 2026:** I served as a **Local Chair** for the **17th ACM Multimedia Systems Conference (ACM MMSys 2026)**, held in **Hong Kong on April 4–8, 2026**.
+
 - **Reviewer**, ACM Conference on Human Factors in Computing Systems (**CHI**).
 - **Reviewer**, IEEE Conference on Virtual Reality and 3D User Interfaces (**IEEE VR**).
 - **Reviewer**, ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**).
