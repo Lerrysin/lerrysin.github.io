@@ -46,10 +46,10 @@ I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science a
 - **Conference Reviewer**, ACM Conference on Human Factors in Computing Systems (**CHI**) — **CCF A**.
 - **Conference Reviewer**, IEEE Conference on Virtual Reality and 3D User Interfaces (**IEEE VR**) — **CCF A**.
 - **Conference Reviewer**, ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**) — **CCF A**.
-- **Journal Reviewer**, [IEEE Transactions on Haptics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4543165).
-- **Journal Reviewer**, [International Journal of Human-Computer Interaction](https://www.tandfonline.com/journals/hihc20) (**IJHCI**) — **CCF B**.
+- **Journal Reviewer**, [IEEE Transactions on Haptics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4543165) — **JCR Q2 (2025)**.
+- **Journal Reviewer**, [International Journal of Human-Computer Interaction](https://www.tandfonline.com/journals/hihc20) (**IJHCI**) — **JCR Q1 (2025)**.
 
-*CCF categories follow the [2026 CCF catalogue](https://www.ccf.org.cn/Academic_Evaluation/By_category/).*
+*Conference categories follow the [2026 CCF catalogue](https://www.ccf.org.cn/Academic_Evaluation/By_category/). Journal quartiles use 2025 JCR data reported by [IEEE](https://open.ieee.org/wp-content/uploads/IEEE-Title-List-September-2026.pdf) and [Taylor & Francis](https://www.tandfonline.com/action/journalInformation?journalCode=hihc20&show=instructions).*
 
 ## Honors and Awards
 
