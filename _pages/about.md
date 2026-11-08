@@ -46,6 +46,8 @@ I am **Simin Yang**, a Ph.D. candidate at [The Hong Kong University of Science a
 - **Reviewer**, ACM Conference on Human Factors in Computing Systems (**CHI**).
 - **Reviewer**, IEEE Conference on Virtual Reality and 3D User Interfaces (**IEEE VR**).
 - **Reviewer**, ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW**).
+- **Reviewer**, [IEEE Transactions on Haptics](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4543165).
+- **Reviewer**, [International Journal of Human-Computer Interaction](https://www.tandfonline.com/journals/hihc20) (**IJHCI**).
 
 ## Honors and Awards
 
